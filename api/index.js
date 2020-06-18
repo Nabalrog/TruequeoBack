@@ -9,7 +9,7 @@ api.use(express.json({ extended: true }));
 
 // en el cors ponemos las ip que puedan entrar si no ponemos nada
 //recibe de cualquier origen. 
-api.use(cors('http://192.168.10.26/'));
+api.use(cors());
 
 
 
